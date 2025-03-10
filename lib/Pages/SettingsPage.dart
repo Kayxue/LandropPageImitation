@@ -152,7 +152,7 @@ class _SettingsPageState extends State<SettingsPage> {
                     ],
                   ),
                   SettingsList(
-                    category: "Advanced",
+                    category: "About",
                     settings: [
                       ListTile(
                         leading: Icon(Icons.feedback),
