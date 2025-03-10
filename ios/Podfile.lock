@@ -1,0 +1,22 @@
+PODS:
+  - device_friendly_name (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - device_friendly_name (from `.symlinks/plugins/device_friendly_name/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  device_friendly_name:
+    :path: ".symlinks/plugins/device_friendly_name/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  device_friendly_name: bfc3bff211f9ae0d6c729e19297e27d45d11930b
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+
+PODFILE CHECKSUM: 4305caec6b40dde0ae97be1573c53de1882a07e5
+
+COCOAPODS: 1.16.2
