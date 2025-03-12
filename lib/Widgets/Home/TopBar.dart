@@ -28,9 +28,15 @@ class _TopbarState extends State<Topbar> {
             future: _getDeviceName(),
             builder: (context, snapshot) {
               if (snapshot.hasData) {
-                return Text(
-                  "Hello ${snapshot.data} 👋",
-                  style: TextStyle(fontSize: 24),
+                return SizedBox(
+                  width: MediaQuery.of(context).size.width * 0.6,
+                  child: Text(
+                    "Hello ${snapshot.data} 👋",
+                    style: TextStyle(fontSize: 24),
+                    overflow: TextOverflow.ellipsis,
+                    maxLines: 1,
+                    softWrap: false,
+                  ),
                 );
               }
               return Text("Hello, User 👋", style: TextStyle(fontSize: 24));
